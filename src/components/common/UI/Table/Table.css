@@ -34,7 +34,6 @@
     animation: fadeIn 0.5s ease-out;
 }
 
-/* Стили для пагинации */
 .custom-table .ant-pagination {
     padding: 16px;
     margin: 0 !important;

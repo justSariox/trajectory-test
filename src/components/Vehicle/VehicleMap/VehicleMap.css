@@ -16,7 +16,6 @@
     color: var(--primary-color);
 }
 
-/* Стили для маркеров */
 .vehicle-marker {
     background: transparent !important;
     border: none !important;

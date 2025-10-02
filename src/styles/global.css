@@ -8,7 +8,6 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Кастомный скроллбар */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -26,7 +25,6 @@ body {
     background: var(--primary-color);
 }
 
-/* Стили для Leaflet */
 .vehicle-marker {
     background: transparent !important;
     border: none !important;
@@ -53,7 +51,6 @@ body {
     cursor: grabbing !important;
 }
 
-/* Кастомные маркеры */
 .custom-vehicle-marker {
     width: 30px;
     height: 30px;

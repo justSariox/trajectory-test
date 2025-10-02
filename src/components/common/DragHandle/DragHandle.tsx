@@ -1,13 +1,14 @@
-import React from 'react';
+import { type ReactNode } from 'react';
 import { useDragAndDrop } from '@hooks/useDragAndDrop';
 import './DragHandle.css';
 
 interface DragHandleProps {
     vehicle: { id: number; color: string };
-    children: React.ReactNode;
+    children: ReactNode;
 }
 
-export const DragHandle: React.FC<DragHandleProps> = ({ vehicle, children }) => {
+export const DragHandle = ({ vehicle, children }: DragHandleProps
+) => {
     const { handleDragStart, handleDragEnd } = useDragAndDrop();
 
     return (

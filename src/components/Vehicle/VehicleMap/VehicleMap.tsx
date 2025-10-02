@@ -53,7 +53,7 @@ const DraggableMarkers = () => {
     );
 };
 
-const MapController: React.FC = () => {
+const MapController= () => {
     const { updateVehicleCoordinates } = useVehicleActions();
     const { setMap } = useMapDragAndDrop({
         onDrop: updateVehicleCoordinates
@@ -68,7 +68,7 @@ const MapController: React.FC = () => {
     return null;
 };
 
-export const VehicleMap: React.FC = () => {
+export const VehicleMap = () => {
     const { vehicles } = useVehicles();
 
     const vehiclesWithCoords = vehicles.filter(v =>
