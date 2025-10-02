@@ -1,0 +1,14 @@
+.drag-handle {
+    cursor: grab;
+    user-select: none;
+    transition: all 0.3s ease;
+    padding: 8px 0;
+}
+
+.drag-handle:active {
+    cursor: grabbing;
+}
+
+.drag-handle:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,42 @@
+.vehicle-map-container {
+    height: 400px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+    animation: slideUp 0.6s ease-out 0.1s both;
+}
+
+.vehicle-popup {
+    color: var(--text-primary);
+}
+
+.vehicle-popup strong {
+    color: var(--primary-color);
+}
+
+/* Стили для маркеров */
+.vehicle-marker {
+    background: transparent !important;
+    border: none !important;
+}
+
+.leaflet-marker-draggable {
+    cursor: move !important;
+}
+
+.leaflet-dragging .leaflet-marker-draggable {
+    cursor: grabbing !important;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
