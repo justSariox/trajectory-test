@@ -38,7 +38,7 @@ const App = () => {
     return (
         <Layout className="custom-app">
             <Header className="custom-header">
-                <h1>🚗 Управление автомобилями</h1>
+                <h1>Trajectory test</h1>
             </Header>
             <Content className="app-content">
                 {error && (
