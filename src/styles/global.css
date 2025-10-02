@@ -51,6 +51,36 @@ body {
     cursor: grabbing !important;
 }
 
+.leaflet-popup-content-wrapper {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+    color: var(--text-primary) !important;
+}
+
+.leaflet-popup-content {
+    color: var(--text-primary) !important;
+    font-family: 'Inter', sans-serif !important;
+    margin: 16px !important;
+    line-height: 1.5 !important;
+}
+
+.leaflet-popup-tip {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.leaflet-popup-close-button {
+    color: var(--text-secondary) !important;
+    font-size: 18px !important;
+    padding: 8px !important;
+    transition: all 0.3s ease !important;
+}
+
+
+
 .custom-vehicle-marker {
     width: 30px;
     height: 30px;
